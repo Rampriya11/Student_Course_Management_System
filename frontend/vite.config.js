@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://student-course-management-system-eeaq.onrender.com',
+        target: 'http://localhost:5100',
         changeOrigin: true
       }
     },
