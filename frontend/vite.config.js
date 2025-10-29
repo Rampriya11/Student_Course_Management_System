@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5100',
+        target: 'https://student-course-management-system3.onrender.com',
         changeOrigin: true
       }
     },
