@@ -26,7 +26,7 @@ app.use('/api/student', studentRoutes);
 
 // Redirect root route to frontend login page
 app.get('/', (req, res) => {
-  res.redirect('https://student-course-management-system-1-0xxy.onrender.com');
+  res.redirect('http://localhost:3000/login');
 });
 
 // Error handling middleware
